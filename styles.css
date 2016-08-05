@@ -1,0 +1,60 @@
+h2 {
+	margin: 0 0 1em;
+}
+#home h2, #solutions h2, #contactus h2 {
+	margin: 1em 0 .5em;
+    color: #0a6f7D;
+}
+#home h3 {
+    font-size: 1em;
+    font-weight: normal;
+}
+#vprospect h3, #vconvert h3, #vretain h3 {
+	margin: .75em 0 .5em;
+	padding-top: .5em;
+}
+h4 {
+	margin: .75em 0 .25em;
+}
+p, q {
+	margin: 0 0 .5em;
+    line-height: 1.4em;
+}
+a {
+	margin-bottom: .5em;
+}
+q {
+	display: block;
+}
+cite {
+	margin: 1em 0;
+    line-height: 1.4em;
+	display: block;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	padding-left: 1em;
+	padding-bottom: .5em;
+}
+li {
+	padding-left: .25em;
+	padding-bottom: .25em;
+}
+.ui-listview > .ui-li-static, .ui-listview > .ui-li-divider, .ui-listview > li > a.ui-btn {
+    margin: 0;
+    display: block;
+    position: relative;
+    font-weight: normal;
+    text-align: left;
+    height: auto;
+    text-overflow: inherit;
+    overflow: visible;
+    white-space: normal;
+}
+.ui-input-text, .ui-select {
+    margin-bottom: 1.4em;
+}
+
