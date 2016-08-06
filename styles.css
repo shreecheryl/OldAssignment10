@@ -1,15 +1,22 @@
+
+.ui-page-theme-a {
+    background-color: #edf7f8;
+}
+    
 h2 {
 	margin: 0 0 1em;
 }
 #home h2, #solutions h2, #contactus h2 {
 	margin: 1em 0 .5em;
     color: #0a6f7D;
+
 }
 #home h3 {
     font-size: 1em;
     font-weight: normal;
 }
 #vprospect h3, #vconvert h3, #vretain h3 {
+    color: #0a6f7D;
 	margin: .75em 0 .5em;
 	padding-top: .5em;
 }
@@ -42,6 +49,7 @@ ul {
 li {
 	padding-left: .25em;
 	padding-bottom: .25em;
+    line-height: 1.4em;
 }
 .ui-listview > .ui-li-static, .ui-listview > .ui-li-divider, .ui-listview > li > a.ui-btn {
     margin: 0;
@@ -53,8 +61,14 @@ li {
     text-overflow: inherit;
     overflow: visible;
     white-space: normal;
+    background-color: #46abb9;
+    text-shadow: none;
+    line-height: 1.4em;
 }
 .ui-input-text, .ui-select {
     margin-bottom: 1.4em;
+}
+h3.ui-collapsible-heading > a {
+    font-weight: normal;  
 }
 
